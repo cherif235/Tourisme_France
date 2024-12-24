@@ -1,0 +1,98 @@
+h2
+{
+  margin-top: 60px;
+  position: relative;
+  margin-right: 250px;
+  font-weight:850px;
+  font-size: 40px;
+
+   
+}
+
+.fieldset1{
+           
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  height: 100px; 
+}
+.fieldset2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;         
+}
+.fieldset3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+ }        
+ .formconnexion{
+    /* margin-bottom: 20px;*/
+    font-size: 14px;
+    display: block;
+    float: none;
+    width: 90%;
+    margin-bottom: 200px;      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color:rgb(209, 96, 200);
+    width: 100px;
+    height: 30px;
+}
+#code_affiché{
+    margin-left:15px;
+
+}
+label {   
+    display: inline-block;
+    text-align: right;
+    margin: -60px 0 10px 30px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align:center;
+}
+legend{
+    font-size: 20px;
+}
+.center {
+    text-align: center;
+}
+
+.invisible {
+    display: none; 
+}
+
+#boutons_chiffres button {
+    margin: 6px 3px;
+    background-color: aqua;
+    width: 30px;
+    box-shadow: 0 0 10px ;
+    font-size: 10px
+}
+.connexion1{
+    position: relative;
+    float:right;
+    right: 70px;
+    
+}
+section{
+    text-align: center;
+    height:720px;
+    margin-bottom: -60px;
+}

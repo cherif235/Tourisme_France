@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Voyage dans les  Rêves  !</title>
+    <script type="text/javascript" src="Galerie.js"></script>
+    <link rel="stylesheet" href="Styles/style.css"/>
+</head>
+<body >
+  <!--<header>
+      <nav id ="abakar">
+        <ul>
+          <li> <a href="../accueil.xhtml">Accueil</a></li>
+            <li> <a href="./1_presentation.xhtml">Présentation</a></li>
+              <li><a href="./2_galerie.xhtml">Galerie</a></li>
+                <li> <a href="./3_connexion.xhtml">Connexion</a></li>
+        </ul>
+    </nav>
+  </header> 
+ <section> --> 
+  <h1> le bonoheur</h1>
+  <p>Didou, dessine-moi <b id="id_quoi">un animal...</b></p>
+    <p><img id="id_image" src="images/arcde-triomphe.jpg" height="350px"/></p>
+    <label>Méthode 1 : </label>
+    <input type="button" value="Musée du Louvre" onclick="changeImageM1('images/tourisme.jpg', 'un Musée !')"
+    />
+    <input type="button" value="Tour eiffel" onclick="changeImageM1('images/paris.jpg', 'La Tour eiffel !')"
+    />
+    <br/>
+    <label>Méthode 2 : </label>
+    <input type="button" value="Les alpes" onclick="changeImageM2('id_image', 'id_quoi', 'images/alpes1.jpg', 'les alpes')"
+    />
+    <input type="button" value="versailles" onclick="changeImageM2('id_image', 'id_quoi', 'images/versailles-chateau.jpg', 'un Chateau')"
+    />
+    <br/>
+    <label>Méthode 3 : </label>
+    <input type="button" value="La Plage" onclick="changeImageM3('images/Nice.jpg', 'La Plage!')"
+    />
+    <input type="button" value="notredame" onclick="changeImageM3('images/notredame.jpg', 'Notre Dame!')"
+    />
+    <br/><br/>
+    <input type="button" value="Remise à l'état initial" onclick="changeImageM3('images/arcde-triomphe.jpg', 'arcde-triomphe...')"
+    />
+    <br/>
+    <p>
+      <img src="images/arcde-triomphe.jpg" height="50px" onmouseover="changeImageM3('images/arcde-triomphe.jpg', 'Arc de Triomphe' )"
+      />
+      <img src="images/tourisme.jpg" height="50px" onmouseover="changeImageM3('images/tourisme.jpg', 'chien')"/> 
+      <img src="images/paris.jpg" height="50px" onmouseover="changeImageM3('images/paris.jpg', 'Tour eiffel')"
+      /><img src="images/alpes1.jpg" height="50px" onmouseover="changeImageM3('images/alpes1.jpg','alpes1')"/> 
+       <img src="images/versailles-chateau.jpg" height="50px" onmouseover="changeImageM3('images/versailles-chateau.jpg','versailles-chateau')"/>
+      <img src="images/Nice.jpg" height="50px" onmouseover="changeImageM3('images/Nice.jpg','la plage')"
+      />
+      <img src="images/notredame.jpg" height="50px" onmouseover="changeImageM3('images/notredame.jpg', 'notre dame')"
+      />
+    </p>
+    <!-- <script>
+      function changeCouleurDeFond(){
+     event.preventDefault();
+         /* document.body.style.backgroundColor = "b";*/
+          
+
+            alea = Math.random();
+          console.log(alea);
+            aleadeci = alea * 1000;
+            if( aleadeci>255){
+              aleadeci = aleadeci / 10;
+            }
+            r = Math.floor(aleadeci);
+          console.log(r);
+            alea = Math.random();
+          console.log(alea);
+            aleadeci = alea * 1000;
+            if( aleadeci>255){
+              aleadeci = aleadeci / 10;
+            }
+            g = Math.floor(aleadeci);
+          console.log(g);
+            alea = Math.random();
+            console.log(alea);
+            aleadeci = alea * 1000;
+            if( aleadeci>255){
+              aleadeci = aleadeci / 10;
+            }
+            b = Math.floor(aleadeci);
+            
+          console.log(b);
+          document.body.style.backgroundColor ="rgb("+r+","+g+","+b+")";
+          return false; 
+
+        }
+   </script>
+   
+ 
+ </body>
+
+<script>
+   var bodyTag = document.body;
+ var p1Tag   = bodyTag.childNodes[3];
+ var bTag    = p1Tag.lastChild;
+ var p2Tag   = bodyTag.childNodes[5];
+ var imgTag  = p2Tag.firstChild;
+
+ console.log("p1Tag  : "+ p1Tag.innerHTML);
+ console.log("bTag   : "+ bTag.innerHTML);
+ console.log("imgTag : "+ imgTag.src);
+ </script>
+--></body>
+</html>
